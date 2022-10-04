@@ -1,0 +1,165 @@
+
+*{
+    background-color: var(--color--1);
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+    --color--1: #FEF2F2;
+    --color--2: #F26440;
+    --color--3: #286F6C;
+    --color--4: #ADADAD;
+    --color--5: #FFFFFF;
+    --color--6: #f9f5f2;
+}
+
+
+nav{
+    background-color: var(--color--1);
+
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: var(--color--1);
+    gap: 1rem;
+    margin-right: 10rem;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+li.inicio{
+        
+    background-color: var(--color--1);
+    list-style: none;
+    padding: .5rem;
+    margin: 1rem;
+    color: var(--color--4);
+    
+   
+}
+
+li.inicio:hover{
+    color: var(--color--3);
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 5px 5px 20px rgb(235, 233, 233);
+}
+
+.contenedor1{
+    display: flex;
+    background-color: var(--color--1);
+    margin-left: 10rem;
+    padding: 1rem;
+    gap: 1rem;
+    font-size: 80px;
+    font-family: 'Inter', sans-serif;
+
+}
+
+p{
+    text-align: left;
+    background-color: var(--color--1);  
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+
+.redes{
+    list-style: none;
+    background-color: var(--color--1);
+    color: var(--color--2);
+    flex-grow: 1;
+}
+
+header>div>img{
+    width: 400px;
+    height: 600px;
+}
+div.elemento1a{
+    margin-left: 132 px;
+    margin-top: 50px;
+    padding: 1rem;
+    font-weight: 550;
+    text-align: center;
+    background-color: var(--color--1);
+}
+
+
+
+div.elemento2{
+    position: relative;
+    padding: 1rem;
+    margin-left: 9rem;
+    border-radius: 100px;
+}
+
+div.elemento1a>div.iconos{
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+    background-color:var(--color--1);
+
+}
+
+div.elemento1a>div.iconos>img{
+    
+    width: 60px;
+    height: 60px;
+    background-color: var(--color--2);
+    border-radius: 100%;
+    padding: 1rem;
+    margin: .5rem;
+    
+}
+
+div.circulo-verde{
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 560px;
+    height: 560px;
+    border-radius: 100%;
+    background-color: var(--color--3);
+}
+
+.persona{
+    position:absolute;
+    top: 0;
+    left: 80px;
+    background-color: transparent;
+
+}
+
+div.segundo-cont{
+    display: flex;
+}
+
+h1{
+    font-size: 24px;
+    color: var(--color--3);
+    font-weight: bold;
+}
+
+div.segundo-cont{
+   
+}
+
+h1{
+    font-size: 24px;
+    color: var(--color--3);
+    font-weight: bold;
+}
+
+
+
